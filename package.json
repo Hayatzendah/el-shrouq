@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "EL SHROUQ Import & Export - Next.js website with Firebase",
-  "main": "server.js",
+  "main": "index.js",
   "keywords": [
     "nextjs",
     "nodejs",
@@ -19,7 +19,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node index.js",
+    "server": "node server.js",
     "lint": "next lint",
     "postinstall": "npm run build"
   },
