@@ -308,6 +308,33 @@ el-shrouq/
 
 ## 🚀 Deployment
 
+### Hostinger (Node.js)
+
+This is a **Node.js application** built with Next.js. Hostinger will automatically detect it as a Node.js project.
+
+**Requirements:**
+- Node.js 18.0.0 or higher
+- npm 9.0.0 or higher
+
+**Deployment Steps:**
+1. Connect your GitHub repository to Hostinger
+2. Select the `el-shrouq` repository
+3. Hostinger will automatically detect it as a Node.js project (via `package.json`, `server.js`, and `Procfile`)
+4. Set environment variables in Hostinger dashboard:
+   ```
+   NEXT_PUBLIC_FIREBASE_API_KEY=your-api-key
+   NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id
+   NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+   NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-sender-id
+   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-project-id.firebaseapp.com
+   NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
+   ```
+5. Build command: `npm run build`
+6. Start command: `npm start`
+7. Port: `3000` (or use Hostinger's assigned port via `PORT` environment variable)
+
+**Note:** The project includes `server.js`, `Procfile`, and proper `package.json` configuration to ensure Hostinger recognizes it as a Node.js application.
+
 ### Vercel (Recommended)
 
 1. Push your code to GitHub

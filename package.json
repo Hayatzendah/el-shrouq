@@ -2,6 +2,8 @@
   "name": "el-shrouq-export",
   "version": "0.1.0",
   "private": true,
+  "description": "EL SHROUQ Import & Export - Next.js website with Firebase",
+  "main": "next.config.ts",
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=9.0.0"
@@ -10,7 +12,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "next": "^15.5.7",
