@@ -4,11 +4,9 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { Search } from 'lucide-react';
 import ProductCard from '@/components/ProductCard';
-import { getVisibleProducts, getVisibleSeasons, getVisibleCategories } from '@/lib/firestore';
-import { Product, Season, Category } from '@/lib/types';
+import { getVisibleProducts, getVisibleSeasons, getVisibleCategories, Product, Season, Category } from '@/lib/phpApi';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { getProductName } from '@/lib/utils';
-import { getCache, setCache, CACHE_KEYS } from '@/lib/cache';
 
 export default function ProductsPage() {
   const { language } = useLanguage();

@@ -2,12 +2,13 @@
   "name": "el-shrouq-export",
   "version": "0.1.0",
   "private": true,
-  "description": "EL SHROUQ Import & Export - Next.js website with Firebase",
+  "description": "EL SHROUQ Import & Export - Next.js website with PHP/MySQL backend",
   "keywords": [
     "nextjs",
     "nodejs",
     "react",
-    "firebase",
+    "php",
+    "mysql",
     "typescript"
   ],
   "engines": {
@@ -24,7 +25,6 @@
     "next": "^15.5.7",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
-    "firebase": "^11.1.0",
     "framer-motion": "^11.15.0",
     "lucide-react": "^0.469.0",
     "class-variance-authority": "^0.7.1",

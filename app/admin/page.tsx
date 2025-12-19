@@ -3,8 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Package, Calendar, FolderTree, Eye, EyeOff } from 'lucide-react';
-import { getProducts, getSeasons, getCategories } from '@/lib/firestore';
-import SeedButton from '@/components/SeedButton';
+import { getProducts, getSeasons, getCategories } from '@/lib/phpApi';
 
 export default function AdminDashboard() {
   const [stats, setStats] = useState({

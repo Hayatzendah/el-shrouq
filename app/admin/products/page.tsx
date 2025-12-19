@@ -10,12 +10,12 @@ import {
   updateProduct,
   deleteProduct,
   generateSlug,
-} from '@/lib/firestore';
-import { uploadImage } from '@/lib/storage';
-import { Product, Category, Season } from '@/lib/types';
+  uploadImage,
+  Product,
+  Category,
+  Season,
+} from '@/lib/phpApi';
 import Image from 'next/image';
-import SeedButton from '@/components/SeedButton';
-import { clearCache, CACHE_KEYS } from '@/lib/cache';
 
 export default function AdminProductsPage() {
   const [products, setProducts] = useState<Product[]>([]);

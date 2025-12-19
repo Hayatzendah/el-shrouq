@@ -2,9 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
-import { getProductBySlug, getCategoryById, getSeasonById } from '@/lib/firestore';
+import { getProductBySlug, Product, Category, Season } from '@/lib/phpApi';
 import ProductDetailContent from '@/components/ProductDetailContent';
-import { Product, Category, Season } from '@/lib/types';
 
 // Force static generation - page will be rendered client-side
 export const dynamic = 'force-static';
