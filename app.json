@@ -1,0 +1,28 @@
+{
+  "name": "el-shrouq-export",
+  "description": "EL SHROUQ Import & Export - Next.js website with Firebase",
+  "repository": "https://github.com/Hayatzendah/el-shrouq",
+  "keywords": ["nextjs", "nodejs", "react", "firebase"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "NODE_ENV": {
+      "required": true,
+      "value": "production"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "engines": {
+    "node": "18.20.0",
+    "npm": "9.0.0"
+  }
+}
+

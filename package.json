@@ -3,7 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "description": "EL SHROUQ Import & Export - Next.js website with Firebase",
-  "main": "next.config.ts",
+  "main": "server.js",
+  "keywords": [
+    "nextjs",
+    "nodejs",
+    "react",
+    "firebase",
+    "typescript",
+    "node"
+  ],
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=9.0.0"

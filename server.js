@@ -1,6 +1,9 @@
-// Entry point for Node.js applications
-// Next.js handles the server internally via 'next start'
-// This file helps hosting platforms recognize this as a Node.js project
+#!/usr/bin/env node
+/**
+ * Node.js Server Entry Point
+ * This file is the main entry point for Node.js hosting platforms
+ * Next.js application server
+ */
 
 const { createServer } = require('http');
 const { parse } = require('url');

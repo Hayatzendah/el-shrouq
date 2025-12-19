@@ -1,0 +1,9 @@
+{
+  "type": "nodejs",
+  "runtime": "node",
+  "version": "18.20.0",
+  "build": "npm run build",
+  "start": "npm start",
+  "main": "server.js"
+}
+
