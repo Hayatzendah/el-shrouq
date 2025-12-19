@@ -3,14 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "description": "EL SHROUQ Import & Export - Next.js website with Firebase",
-  "main": "index.js",
   "keywords": [
     "nextjs",
     "nodejs",
     "react",
     "firebase",
-    "typescript",
-    "node"
+    "typescript"
   ],
   "engines": {
     "node": "18.x",
@@ -19,8 +17,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node index.js",
-    "server": "node server.js",
+    "start": "next start -p $PORT",
     "lint": "next lint"
   },
   "dependencies": {
@@ -44,10 +41,5 @@
     "autoprefixer": "^10.4.20",
     "eslint": "^9.17.0",
     "eslint-config-next": "^15.1.0"
-  },
-  "overrides": {
-    "react-server-dom-webpack": "^19.2.1",
-    "react-server-dom-parcel": "^19.2.1",
-    "react-server-dom-turbopack": "^19.2.1"
   }
 }
